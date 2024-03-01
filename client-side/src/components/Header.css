@@ -1,0 +1,60 @@
+/* Header */
+header {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 10px 0; /* Add padding to the header */
+}
+
+/* Navigation */
+nav {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Align items evenly along the main axis */
+  align-items: center; /* Center items vertically */
+  padding: 0 20px; /* Add padding to the navigation */
+}
+
+/* Left side */
+.left h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 24px; /* Set font size for the heading */
+}
+
+/* Right side */
+.right ul {
+  list-style-type: none; /* Remove default list style */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.right ul li {
+  display: inline-block; /* Display list items inline */
+  margin-right: 20px; /* Add spacing between list items */
+}
+
+.right ul li:last-child {
+  margin-right: 0; /* Remove margin from the last list item */
+}
+
+.right ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #fff; /* White text color */
+  font-weight: bold; /* Set font weight for links */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.right ul li a:hover {
+  color: #ffd700; /* Change text color on hover to gold */
+}
+
+/* Profile image */
+img {
+  width: 40px; /* Set width for the profile image */
+  height: 40px; /* Set height for the profile image */
+  border-radius: 50%; /* Make the profile image round */
+  border: 2px solid #fff; /* White border around the image */
+  transition: border-color 0.3s; /* Smooth border color transition */
+}
+
+img:hover {
+  border-color: #ffd700; /* Change border color on hover to gold */
+}
