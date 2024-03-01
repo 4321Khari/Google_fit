@@ -20,7 +20,7 @@ Google Cloud Platform project with the Google Fit API enabled and OAuth 2.0 cred
 #Installation
 Clone the repository:
 
-git clone https://github.com/4321Khari/Google_Sign_In.git
+git clone https://github.com/4321Khari/Google_fit.git
 
 #Install dependencies:
 
